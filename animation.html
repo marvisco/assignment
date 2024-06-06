@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red-circle {
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+
+        .white-circle {
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border-radius: 50%;
+            animation: red 5s ease-in infinite;
+        }
+        
+        @keyframes red{
+            from{
+                scale: 1;
+            }   
+            to{
+                scale: 7;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red-circle">
+        <div class="white-circle"></div>
+        <div class="white-circle"></div>
+    </div>
+</body>
+
+</html>

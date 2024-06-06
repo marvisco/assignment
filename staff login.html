@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<style>
+    .main-div {
+        width: 100%;
+        height: 700px;
+        border: 0px solid black;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .sign-in {
+        width: 45%;
+        height: 700px;
+        border: 0px solid black;
+    }
+
+    .img {
+        width: 50px;
+        height: 80px;
+        margin-left: 45%;
+
+    }
+
+    .sign-in a {
+        margin: 20% 0px 0px 45%;
+        text-decoration: none;
+    }
+
+    .email {
+        margin: 10px 0px 0px 20%;
+        border-bottom: 1px solid gray;
+        padding: 10px 0px;
+        width: 70%;
+    }
+
+    .email input {
+        width: 100%;
+        border: none;
+
+    }
+
+    .password {
+        margin: 10px 0px 0px 20%;
+    }
+
+    .forgetpassword {
+        width: 70%;
+        display: flex;
+        height: 90px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .forgetpassword a {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .checkbox {
+        width: 80%;
+        display: flex;        
+        justify-content: space-between;
+        margin: 0px 0px 0px 20%;
+    }
+
+    button {
+        margin-left: 40%;
+        width: 120px;
+        height: 50px;
+        border: 0px solid black;
+        border-radius: 25px;
+        color: white;
+        background-color: blue;
+
+    }
+
+    .images {
+        width: 55%;
+        height: 700px;
+        border: 0px solid black;
+
+    }
+
+    .first-pics {
+        width: 100%;
+        height: 150px;
+        border: 0px solid black;
+        background-image: url('/images/unidel 2.jpg');
+        opacity: 0.3;
+        display: flex;
+    }
+
+    .second-pics {
+        width: 100%;
+        height: 150px;
+        border: 0px solid black;
+        background-image: url('/images/unidel 3.png');
+        opacity: 0;
+    }
+
+    .third-pics {
+        width: 100%;
+        height: 194px;
+        border: 0px solid black;
+        background-image: url('/images/welcome_image.jpg');
+        opacity: 0.6;
+    }
+</style>
+
+<body>
+    <div class="main-div">
+        <a href="unidelsite.html" style="text-decoration: none;">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </a>
+        <div class="sign-in">
+            <div class="img">
+                <img src="img/unilogo.png" width="100" height="100">
+            </div>
+            <div class="admin" style="margin-left: -55px; margin-top: 40px;">
+                <a href="#" style="color: black;font-family: Arial, Helvetica, sans-serif;">Sign In To Admin</a>
+            </div>
+            <div class="email">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="email">
+                <input type="password" placeholder="password">
+            </div>
+            <div class="checkbox">
+                <div style="display: flex; width: 50%;">
+
+                    <span style="text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;">
+                        <input type="checkbox" name="" id="">
+                        Remember me
+                    </span>
+                </div>
+                <div class="forgetpassword">
+                    <a href="#">Forgetten Password</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <button>sign in</button>
+        </div>
+        <div class="images">
+            <div class="first-pics">
+                <div class="unidel-1-pics">
+                    <img src="images/unidel 2.jpg" alt="">
+                </div>
+                <div class="unidel-1-pics">
+                    <img src="images/unidel 2.jpg" alt="">
+                </div>
+            </div>
+            <div class="first-pics">
+                <div class="unidel-1-pics">
+                    <img src="images/unidel 2.jpg" alt="">
+                </div>
+                <div class="unidel-1-pics">
+                    <img src="images/unidel 2.jpg" alt="">
+                </div>
+            </div>
+            <div class="first-pics">
+                <div class="unidel-1-pics">
+                    <img src="images/unidel 2.jpg" alt="">
+                </div>
+                <div class="unidel-1-pics">
+                    <img src="images/unidel 2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

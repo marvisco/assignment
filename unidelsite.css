@@ -1,0 +1,595 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 248, 248);
+}
+
+
+/* for the blue header */
+
+#header {
+    background-color: rgb(40, 54, 70);
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+
+#icon {
+    width: 50%;
+    height: 100%;
+    margin-left: 150px;
+    margin-top: 13px;
+}
+
+#icon img {
+    margin-left: 15px;
+}
+
+#button {
+    width: 50%;
+    height: 100%;
+    margin-left: 700px;
+    margin-top: 13px;
+}
+
+#button button {
+    margin-left: 15px;
+    background-color: rgb(40, 54, 70);
+    color: rgb(221, 221, 221);
+    border-radius: 5px;
+}
+
+#button i {
+    color: rgb(221, 221, 221);
+}
+
+
+/* for the white fixed header */
+
+#white {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+
+/* the div for logo of unidel */
+
+#img {
+    margin-left: 150px;
+    margin-top: 13px;
+}
+
+
+/* the logo of unidel */
+
+#logo {
+    width: 150px;
+    height: 40px;
+}
+
+
+/* the div for link for  the white header*/
+
+#forlink {
+    margin-left: 200px;
+    margin-top: 22px;
+}
+
+
+/* the lint for  the white header */
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.link:hover{
+    color: blue;
+}
+/* the background img with text */
+
+#b-img {
+    background-image: url("img/gate.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* the background img with text it h1 */
+
+#b-img h1 {
+    font-size: 70px;
+    margin-top: 290px;
+    margin-left: 10px;
+}
+
+
+/* the background img with text it p-tag */
+
+#b-img p {
+    margin-top: -37px;
+    margin-left: 10px;
+}
+
+
+/* the background img with text it button link */
+
+#b-but {
+    background-color: rgb(89, 143, 254);
+    width: 100px;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#b-img a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* the div for map and text background with white color */
+
+#overlay {
+    background-color: white;
+    width: 90%;
+    height: 300px;
+    margin: 0px auto;
+    /* box-shadow: 1pxn black; */
+    margin-top: -50px;
+    display: flex;
+    /* border: 3px solid yellow; */
+}
+
+
+/* the vision */
+
+#vision {
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(134, 134, 134);
+}
+
+#vision img {
+    width: 40px;
+    height: 40px;
+}
+
+#vision a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* the class line in overlay */
+
+.line {
+    background-color: rgb(34, 34, 34);
+    width: 45px;
+    height: 1px;
+}
+
+#vision p {
+    color: rgb(134, 134, 134);
+    line-height: 25px;
+    font-size: 15px;
+}
+
+
+/* the mission */
+
+#mission {
+    /* background-color: blue; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(134, 134, 134);
+}
+
+#mission img {
+    width: 40px;
+    height: 40px;
+}
+
+#mission a {
+    text-decoration: none;
+    color: black;
+}
+
+#mission p {
+    color: rgb(134, 134, 134);
+    line-height: 25px;
+    font-size: 15px;
+}
+
+
+/* the map */
+
+#map {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#map img {
+    width: 40px;
+    height: 40px;
+}
+
+#map a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* the welcome side and overflow */
+
+#cover {
+    /* background-color: blue; */
+    width: 90%;
+    height: 600px;
+    margin: 0px auto;
+    display: flex;
+}
+
+
+/* the welcome space */
+
+#welcome {
+    /* background-color: blue; */
+    width: 80%;
+    height: 100%;
+    /* margin-left: 10px; */
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome h2 {
+    font-size: 35px;
+}
+
+#lineb1 {
+    background-color: rgb(68, 129, 253);
+    width: 100px;
+    height: 2px;
+}
+
+#welcome p {
+    color: rgb(134, 134, 134);
+    line-height: 25px;
+    font-size: 15px;
+}
+
+
+/* the button */
+
+#b-b2 {
+    background-color: rgb(89, 143, 254);
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b-b2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#welcome img {
+    width: 90%;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+
+/* the overflow space */
+
+#overflow {
+    /* background-color: red; */
+    width: 20%;
+    height: 100%;
+}
+
+#top {
+    height: 10%;
+    /* background-color: red; */
+}
+
+#top h5 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#lineb2 {
+    background-color: rgb(68, 129, 253);
+    width: 60px;
+    margin-top: -15px;
+    height: 1px;
+}
+
+#scroll {
+    margin-top: -30px;
+    height: 90%;
+    overflow-x: none;
+    overflow-y: scroll;
+    /* background-color: red; */
+}
+
+.list {
+    border-bottom: 2px dotted rgb(229, 229, 229);
+    padding: 15px;
+}
+
+.list a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* the youtudevideo and the text div */
+
+#vid-text {
+    background-image: url("img/gate.jpg");
+    margin-top: 15px;
+    width: 100%;
+    height: 350px;
+    /* border: 3px solid yellow; */
+}
+
+#black {
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#youtude {
+    /* background-color: aqua; */
+    width: 50%;
+    height: 100%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#youtude iframe {
+    border-radius: 5px;
+}
+
+#text20 {
+    /* background-color: white; */
+    color: white;
+    width: 50%;
+    height: 100%;
+    margin-top: 35px;
+    margin-left: -30px;
+}
+
+#text20 h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#line20 {
+    background-color: white;
+    width: 100px;
+    height: 1px;
+}
+
+#text20 p {
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    font-size: 15px;
+}
+
+#b-b3 {
+    background-color: rgb(89, 143, 254);
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b-b3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* the new and event section div */
+
+#open {
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    border: 3px solid yellow;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#picheader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+#pic {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pic img {
+    margin-left: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* picture gallery and social */
+
+#pic-soc {
+    width: 100%;
+    height: 400px;
+    border: 3px solid black;
+    display: flex;
+}
+
+
+/* the picture and gallery */
+
+#picture {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+/* the social */
+
+#social {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+
+
+/* the contact info div */
+
+#contact-info {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 300px;
+    margin: 0px auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.contact1 {
+    width: 30%;
+    height: 100%;
+    /* margin-top: -10px; */
+}
+
+.h4 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.line5 {
+    width: 70px;
+    height: 1px;
+    background-color: blue;
+    margin-top: -10px;
+}
+
+.good {
+    color: rgb(134, 134, 134);
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.good a {
+    color: rgb(134, 134, 134);
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.good i {
+    color: rgb(89, 143, 254);
+    margin-right: 10px;
+}
+
+#link {
+    width: 15%;
+    height: 100%;
+    /* margin-top: 90px; */
+    margin-left: 30px;
+}
+
+#good {
+    color: rgb(134, 134, 134);
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#twitter {
+    width: 25%;
+    height: 100%;
+    /* margin-top: 90px; */
+    margin-left: 30px;
+}
+
+#contact2 {
+    width: 30%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+
+/* the copyright  div */
+
+#copyright {
+    background-color: rgb(31, 30, 35);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#copyright i {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+#copyright a {
+    color: blue;
+    text-decoration: none;
+}
